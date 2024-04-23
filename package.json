@@ -1,0 +1,32 @@
+{
+  "name": "com.fsstudio.zerosim",
+  "version": "0.1.18",
+  "displayName": "ZeroSim",
+  "description": "ZeroSim ROS robotic simulator in Unity.",
+  "unity": "2020.1",
+  "keywords": [
+    "simulation",
+    "ROS",
+    "Robotics"
+  ],
+  "dependencies": {
+    "com.unity.burst": "1.2.3",
+    "com.unity.nuget.newtonsoft-json": "2.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "ZeroSim samples",
+      "description": "ZeroSim samples",
+      "path": "Samples~/ZeroSimSamples"
+    }
+  ],
+  "author": {
+    "name": "FS Studio",
+    "email": "micah@fsstudio.com",
+    "url": "http://www.fsstudio.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsstudio-team/ZeroSimROSUnity.git"
+  }
+}
